@@ -1,4 +1,4 @@
-div[class^="uploadDropModal-"][class*=" error-"], div[class^='artContainer-'] {
+div[class^="uploadDropModal-"][class*=" error-"], div[class^='root-']:has(div[class^='flex-'] > div[class^='primaryActions-'] svg[class^='premiumIcon']) {
   div[class^="icons-"] {
     visibility: hidden;
 
@@ -18,7 +18,11 @@ div[class^="uploadDropModal-"][class*=" error-"], div[class^='artContainer-'] {
     }
   }
 
-  div[class^="instructions"] {
+  div[class^='defaultColor-']:has(> div[class^='body']) > * {
+    display: none;
+  }
+
+  div[class^="instructions"], > div > div[class^='defaultColor-']:has(> div[class^='body']) {
     visibility: hidden;
 
     &::after {
@@ -29,7 +33,11 @@ div[class^="uploadDropModal-"][class*=" error-"], div[class^='artContainer-'] {
     }
   }
 
-  div[class^="title-"] {
+  > div > h2::after {
+    left: 0;
+  }
+
+  div[class^="title-"], > div > h2 {
     visibility: hidden;
 
     &::after {
@@ -38,6 +46,7 @@ div[class^="uploadDropModal-"][class*=" error-"], div[class^='artContainer-'] {
       position: absolute;
       display: block;
       top: 0;
+      width: 100%;
     }
   }
 }
