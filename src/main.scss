@@ -1,4 +1,7 @@
-div[class^="uploadDropModal-"][class*=" error-"], div[class^='root-']:has(div[class^='flex-'] > div[class^='primaryActions-'] svg[class^='premiumIcon']) {
+div[class^="uploadDropModal-"][class*=" error-"],
+div[class^="root-"]:has(
+    div[class^="flex-"] > div[class^="primaryActions-"] svg[class^="premiumIcon"]
+  ) {
   div[class^="icons-"] {
     visibility: hidden;
 
@@ -18,11 +21,12 @@ div[class^="uploadDropModal-"][class*=" error-"], div[class^='root-']:has(div[cl
     }
   }
 
-  div[class^='defaultColor-']:has(> div[class^='body']) > * {
+  div[class^="defaultColor-"]:has(> div[class^="body"]) > * {
     display: none;
   }
 
-  div[class^="instructions"], > div > div[class^='defaultColor-']:has(> div[class^='body']) {
+  div[class^="instructions"],
+  > div > div[class^="defaultColor-"]:has(> div[class^="body"]) {
     visibility: hidden;
 
     &::after {
@@ -37,7 +41,8 @@ div[class^="uploadDropModal-"][class*=" error-"], div[class^='root-']:has(div[cl
     left: 0;
   }
 
-  div[class^="title-"], > div > h2 {
+  div[class^="title-"],
+  > div > h2 {
     visibility: hidden;
 
     &::after {
