@@ -1,33 +1,33 @@
-div[class^='uploadDropModal-'][class*=' error-'] {
-  div[class^='icons-'] {
+div[class^="uploadDropModal-"][class*=" error-"] {
+  div[class^="icons-"] {
     visibility: hidden;
 
     &::after {
       visibility: visible;
-      background: url('https://i.pinimg.com/originals/d0/e4/0a/d0e40ae38b08c9e9508c26b63e5990b8.png');
+      background: url("https://i.pinimg.com/originals/d0/e4/0a/d0e40ae38b08c9e9508c26b63e5990b8.png");
       position: absolute;
       height: 150px;
       display: block;
       width: 150px;
-      background-position:  center;
+      background-position: center;
       background-size: contain;
       left: -25px;
       top: -100px;
       background-repeat: no-repeat;
-      content: '';
+      content: "";
     }
   }
-  
-  div[class^='instructions'] {
+
+  div[class^="instructions"] {
     visibility: hidden;
   }
 
-  div[class^='title-'] {
+  div[class^="title-"] {
     visibility: hidden;
 
     &::after {
       visibility: visible;
-      content: 'S-Senpai your files are too large';
+      content: "S-Senpai your files are too large";
       position: absolute;
       display: block;
       top: 0;
