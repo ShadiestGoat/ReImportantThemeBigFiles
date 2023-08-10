@@ -10,4 +10,4 @@ Yes yes, when you upload too many files, it displays the same message as when yo
 
 ## Preview
 
-![Preview](https://cdn.discordapp.com/attachments/735886276070342696/1139223900119629854/image.png)
+![Preview](https://cdn.discordapp.com/attachments/735886276070342696/1139230325520748705/image.png)

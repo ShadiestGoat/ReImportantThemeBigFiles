@@ -7,7 +7,7 @@
     "discordID": "376079696489742338",
     "github": "ShadiestGoat"
   },
-  "version": "1.0.1",
+  "version": "1.1.0",
   "updater": {
     "type": "store",
     "id": "eu.shadygoat.bigFiles"
@@ -15,8 +15,8 @@
   "license": "MIT",
   "type": "replugged-theme",
   "main": "src/main.scss",
-  "source": "https://github.com/ShadiestGoat/Replugged-GithubTheme",
+  "source": "https://github.com/ShadiestGoat/ReImportantThemeBigFiles",
   "image": [
-    "https://cdn.discordapp.com/attachments/735886276070342696/1139223900119629854/image.png"
+    "https://cdn.discordapp.com/attachments/735886276070342696/1139230325520748705/image.png"
   ]
 }

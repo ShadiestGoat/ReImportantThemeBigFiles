@@ -20,6 +20,13 @@ div[class^="uploadDropModal-"][class*=" error-"] {
 
   div[class^="instructions"] {
     visibility: hidden;
+
+    &::after {
+      visibility: visible;
+      display: block;
+      margin-top: 10px;
+      content: 'I can only take up to 25 inches';
+    }
   }
 
   div[class^="title-"] {
