@@ -1,5 +1,5 @@
 {
-  "id": "eu.shadygoat.BigFiles",
+  "id": "eu.shadygoat.bigFiles",
   "name": "Big Files",
   "description": "A theme that lets you know you got big files",
   "author": {
@@ -10,7 +10,7 @@
   "version": "1.0.0",
   "updater": {
     "type": "store",
-    "id": "eu.shadygoat.BigFiles"
+    "id": "eu.shadygoat.bigFiles"
   },
   "license": "MIT",
   "type": "replugged-theme",
