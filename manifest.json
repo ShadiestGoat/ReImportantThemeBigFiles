@@ -1,19 +1,22 @@
 {
-  "id": "dev.replugged.ThemeTemplate",
-  "name": "Theme Template",
-  "description": "A theme template",
+  "id": "eu.shadygoat.BigFiles",
+  "name": "Big Files",
+  "description": "A theme that lets you know you got big files",
   "author": {
-    "name": "replugged",
-    "discordID": "1000992611840049192",
-    "github": "replugged-org"
+    "name": "Lucy Dryaeva",
+    "discordID": "376079696489742338",
+    "github": "ShadiestGoat"
   },
   "version": "1.0.0",
   "updater": {
-    "type": "github",
-    "id": "replugged-org/theme-template"
+    "type": "store",
+    "id": "eu.shadygoat.BigFiles"
   },
   "license": "MIT",
-  "source": "https://github.com/replugged-org/theme-template",
   "type": "replugged-theme",
-  "main": "src/main.css"
+  "main": "src/main.scss",
+  "source": "https://github.com/ShadiestGoat/Replugged-GithubTheme",
+  "image": [
+    "https://cdn.discordapp.com/attachments/735886276070342696/1139223900119629854/image.png"
+  ]
 }
