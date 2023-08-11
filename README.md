@@ -2,7 +2,7 @@
 
 This is a very important theme with very important consequences. Whenever it fails to upload the files you need, it tells you your files are just too big
 
-[![Install in Replugged](https://img.shields.io/badge/-Install%20in%20Replugged-blue?style=for-the-badge&logo=none)](https://replugged.dev/install?identifier=eu.shadygoat.bigFiles)
+[![Install in Replugged](https://img.shields.io/badge/-Install%20in%20Replugged-blue?style=for-the-badge&logo=none)](https://replugged.dev/install?source=github&identifier=ShadiestGoat/ReImportantThemeBigFiles)
 
 ## Known Issues
 
