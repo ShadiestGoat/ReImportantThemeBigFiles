@@ -9,6 +9,7 @@
   "scripts": {
     "build": "replugged build theme",
     "watch": "replugged build theme --watch",
+    "release": "replugged release",
     "bundle": "replugged bundle theme",
     "lint": "prettier ./src --check",
     "lint:fix": "prettier ./src --write"
