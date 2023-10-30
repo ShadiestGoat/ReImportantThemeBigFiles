@@ -4,7 +4,7 @@ div[class^="root"]:has(
   ) {
   div[class^="icons_"] {
     visibility: hidden;
-d
+
     &::after {
       visibility: visible;
       background: url("https://media.discordapp.net/attachments/1139236760484847627/1139237885216829601/d0e40ae38b08c9e9508c26b63e5990b8.png");
