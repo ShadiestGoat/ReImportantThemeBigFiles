@@ -1,10 +1,10 @@
-div[class^="uploadDropModal-"][class*=" error-"],
-div[class^="root-"]:has(
-    div[class^="flex-"] > div[class^="primaryActions-"] svg[class^="premiumIcon"]
+div[class^="uploadDropModal_"][class*=" error_"],
+div[class^="root"]:has(
+    div[class^="flex_"] > div[class^="primaryActions_"] > button[class^="shinyButton"]
   ) {
-  div[class^="icons-"] {
+  div[class^="icons_"] {
     visibility: hidden;
-
+d
     &::after {
       visibility: visible;
       background: url("https://media.discordapp.net/attachments/1139236760484847627/1139237885216829601/d0e40ae38b08c9e9508c26b63e5990b8.png");
@@ -21,12 +21,12 @@ div[class^="root-"]:has(
     }
   }
 
-  div[class^="defaultColor-"]:has(> div[class^="body"]) > * {
+  div[class^="defaultColor_"]:has(> div[class^="body"]) > * {
     display: none;
   }
 
   div[class^="instructions"],
-  > div > div[class^="defaultColor-"]:has(> div[class^="body"]) {
+  > div > div[class^="defaultColor_"]:has(> div[class^="body"]) {
     visibility: hidden;
 
     &::after {
@@ -41,7 +41,7 @@ div[class^="root-"]:has(
     left: 0;
   }
 
-  div[class^="title-"],
+  div[class^="title_"],
   > div > h2 {
     visibility: hidden;
 
